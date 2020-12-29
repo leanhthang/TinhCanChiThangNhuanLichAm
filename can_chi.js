@@ -37,6 +37,7 @@ const tinhCanChi = {
       [ngayAm, thangAm, namAm, nhuan] = convertSolar2Lunar(day, month, year, 7);
       this.nam = namAm;
       this.thang = thangAm;
+      this.ngay = ngayAm;
       this.nhuan = nhuan == 1 ? '(Nhuận)' : ''
   }
 }
