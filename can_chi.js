@@ -38,6 +38,8 @@ const tinhCanChi = {
       this.nam = namAm;
       this.thang = thangAm;
       this.ngay = ngayAm;
-      this.nhuan = nhuan == 1 ? '(Nhuận)' : ''
+      this.nhuan = nhuan == 1 ? '(Nhuận)' : '';
+      this.canChiThang = this.canChiThang();
+      this.canChiNam = this.canChiNam();
   }
 }
